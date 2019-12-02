@@ -1,0 +1,52 @@
+{
+    "name": "inclusive-range",
+    "version": "0.0.1",
+    "description": "A no-frills number-range generator",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "umd:main": "dist/index.umd.js",
+    "unpkg": "dist/index.umd.js",
+    "jsdelivr": "dist/index.umd.js",
+    "types": "dist/index.d.ts",
+    "repository": "https://github.com/chocolateboy/range",
+    "author": "chocolateboy",
+    "license": "Artistic-2.0",
+    "scripts": {
+        "build": "cross-env NODE_ENV=production bili --no-map --module-name Range --format cjs --format esm --format umd -d dist src/index.ts",
+        "clean": "shx rm -rf dist",
+        "doctoc": "markdown-toc --bullets=- -i README.md",
+        "rebuild": "run-s clean typecheck build",
+        "test:run": "ava --verbose ./test.js",
+        "test": "run-s rebuild test:run",
+        "typecheck": "tsc --noEmit --noUnusedLocals --noUnusedParameters --strict"
+    },
+    "files": [
+        "dist/index.d.ts",
+        "dist/index.esm.js",
+        "dist/index.js",
+        "dist/index.umd.js"
+    ],
+    "devDependencies": {
+        "ava": "^2.4.0",
+        "bili": "^4.8.1",
+        "cross-env": "^6.0.3",
+        "npm-run-all": "^4.1.5",
+        "rollup-plugin-typescript2": "^0.25.2",
+        "shx": "^0.3.2",
+        "typescript": "^3.7.2"
+    },
+    "keywords": [
+        "closed",
+        "closed-interval",
+        "closed-range",
+        "delta",
+        "generator",
+        "inclusive",
+        "inclusive-range",
+        "iterable",
+        "iterator",
+        "number-range",
+        "range",
+        "step"
+    ]
+}

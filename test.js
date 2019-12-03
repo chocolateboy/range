@@ -1,6 +1,10 @@
 import range from '.'
 import test  from 'ava'
 
+test('Array.from(range(value, value))', t => {
+    t.deepEqual(Array.from(range(42, 42)), [42])
+})
+
 test('Array.from(range(low, high))', t => {
     t.deepEqual(Array.from(range(1, 5)), [1, 2, 3, 4, 5])
 })

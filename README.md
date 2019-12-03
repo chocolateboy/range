@@ -1,7 +1,7 @@
 # range
 
 [![Build Status](https://secure.travis-ci.org/chocolateboy/range.svg)](http://travis-ci.org/chocolateboy/range)
-[![NPM Version](http://img.shields.io/npm/v/inclusive-range.svg)](https://www.npmjs.org/package/inclusive-range)
+[![NPM Version](https://img.shields.io/npm/v/inclusive-range.svg)](https://www.npmjs.org/package/inclusive-range)
 
 <!-- toc -->
 

@@ -58,7 +58,7 @@ for (const value of range(1)) { // 1 to infinity
 
 # DESCRIPTION
 
-This module exports a function which generates an iterable number range from
+This module exports a function which generates an iterable number-range from
 the start value to the end value (inclusive) with an optional step. If the step
 is omitted, it defaults to 1. If the end is omitted, it defaults to Infinity.
 If the start is omitted, it defaults to 1.
@@ -74,8 +74,8 @@ on other features such as `map` or `forEach` methods, which may be useful as
 part of a library like [wu.js](https://github.com/fitzgen/wu.js/), but which
 are superfluous in a standalone range function. Most aren't typed (TypeScript).
 
-This has all the functionality I need and none of the functionality I don't
-need and clocks in at ~250 bytes minified and gzipped.
+This has all the core functionality without any bells and whistles and clocks
+in at ~250 bytes minified and gzipped.
 
 # EXPORTS
 
@@ -95,9 +95,9 @@ for (const value of range(1, 10, 3)) {
 ```
 
 Returns an iterable which generates numbers from `start` to `end` inclusive.
-The optional `step` (default: 1) is added (ascending) or subtracted
-(descending) from the previous value to produce the next value. If `end` is
-omitted, it defaults to Infinity. If `start` is omitted, it defaults to 1.
+The optional `step` (default: 1) is added to (ascending) or subtracted from
+(descending) the previous value to produce the next value. If `end` is omitted,
+it defaults to Infinity. If `start` is omitted, it defaults to 1.
 
 # COMPATIBILITY
 
@@ -114,7 +114,7 @@ The following NPM scripts are available:
 - build - compile the library and save it to the target directory
 - clean - remove the target directory and its contents
 - rebuild - remove the target directory and regenerate the build
-- test - typecheck the codebase, compile the library, and run the test suite
+- test - rebuild the library, and run the test suite
 
 </details>
 

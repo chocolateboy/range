@@ -1,6 +1,6 @@
 # range
 
-[![Build Status](https://secure.travis-ci.org/chocolateboy/range.svg)](http://travis-ci.org/chocolateboy/range)
+[![Build Status](https://secure.travis-ci.org/chocolateboy/range.svg)](https://travis-ci.org/chocolateboy/range)
 [![NPM Version](https://img.shields.io/npm/v/inclusive-range.svg)](https://www.npmjs.org/package/inclusive-range)
 
 <!-- toc -->
@@ -136,4 +136,4 @@ The following NPM scripts are available:
 Copyright © 2019 by chocolateboy.
 
 This is free software; you can redistribute it and/or modify it under the
-terms of the [Artistic License 2.0](http://www.opensource.org/licenses/artistic-license-2.0.php).
+terms of the [Artistic License 2.0](https://www.opensource.org/licenses/artistic-license-2.0.php).

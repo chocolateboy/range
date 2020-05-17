@@ -1,5 +1,5 @@
-import range from '.'
-import test  from 'ava'
+const test  = require('ava')
+const range = require('.')
 
 test('Array.from(range(value, value))', t => {
     t.deepEqual(Array.from(range(42, 42)), [42])

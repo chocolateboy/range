@@ -10,7 +10,6 @@
         "esModuleInterop": true,
         "experimentalDecorators": true,
         "extendedDiagnostics": true,
-        "incremental": true,
         "lib": [
             "DOM",
             "DOM.iterable",
@@ -30,6 +29,7 @@
         "noUnusedParameters": false,
         "outDir": "staging",
         "removeComments": false,
+        "sourceMap": true,
         "strict": true,
         "strictBindCallApply": true,
         "strictNullChecks": true,
